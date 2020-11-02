@@ -20,10 +20,11 @@ Generates a resume template based on user input.
 
 ## Objectives & Outcomes
 - Design a clean user interface using only CSS
-- Pass functions, state or values between components
-- Handle state and props in a functional component
-- Understand how to render lists in React
-- Understand how to handle input fields and forms in React
+- Further improve proficiency on the fundamentals of React such as
+	- Passing functions, state or values between components
+	- Handling state and props in a functional component
+	- Rendering lists in React
+	- Handling input fields and forms in React
 - Further improve React proficiency in functional components
 
 ## Development
