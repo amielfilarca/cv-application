@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px 0 20px;
+}
+
+.backBtn {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 0.9rem;
+  margin-right: 25px;
+  cursor: pointer;
+  float: left;
+  color: var(--primary);
+}
+
+.title {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.formItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.label {
+  color: var(--primary);
+  margin: 10px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border: 2px solid var(--primary);
+  background-color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.addBtn {
+  width: 100%;
+  border: 2px solid var(--primary);
+  background: none;
+  outline: none;
+  padding: 10px 0;
+  border-radius: 50px;
+  color: var(--primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 25px 0 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nextBtn {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 0;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 25px 0 50px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 425px) {
+  .form {
+    min-width: 90vw;
+  }
+}
